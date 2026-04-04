@@ -64,6 +64,7 @@
   - **Overview** — What the project is, what problem it solves, and who it's for.
   - **Features** — List of current capabilities and functionality.
   - **Architecture** — System architecture design, key components, how they interact, and design decisions.
+  - **Database** *(if applicable)* — Schema overview, key models/tables, relationships, and migration strategy.
   - **Project Structure** — Folder/file organization and what lives where.
   - **Roadmap** — Planned features, improvements, and next steps.
 

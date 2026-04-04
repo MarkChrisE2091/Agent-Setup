@@ -4,6 +4,12 @@ Setup a custom AI agentic development environment in one step. Use custom settin
 
 ## Quick Start
 
+**Option A** — One-liner (no clone needed). Tell the agent:
+```text
+Set up my dev environment using https://github.com/MarkChrisE2091/Agent-Setup
+```
+
+**Option B** — From local clone:
 1. Clone the repo
 2. Open it in Claude Code or Codex
 3. Tell the agent: **"Read SETUP.md and execute it"**

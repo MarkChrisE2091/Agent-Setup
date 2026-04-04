@@ -1,1 +1,1 @@
-C:/Users/Jonathan MFR Chris/Desktop/Project Setup Automation/custom-instructions/AGENTS.md
+AGENTS.md

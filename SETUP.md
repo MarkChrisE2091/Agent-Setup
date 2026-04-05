@@ -8,7 +8,9 @@ Instructions for AI agents to set up a new system with all agent configurations.
 
 ## 1. Skills
 
-Read `SKILL_LIST.md` and run each `npx skills add` command listed there.
+Read `skills/SKILL_LIST.md` and run each `npx skills add` command listed there.
+
+Then copy all custom skill folders from `skills/` (everything except `SKILL_LIST.md`) to both destinations.
 
 **Destinations:**
 - `~/.agents`
@@ -56,4 +58,4 @@ Copy settings files to their destinations.
 2. Copy **Custom Instructions** (AGENTS.md) and create symlinks (CLAUDE.md, codex AGENTS.md)
 3. Copy **Settings** (settings.json, config.toml)
 4. Copy **Slash Commands** to both `~/.claude/commands/` and `~/.codex/prompts/`
-5. Install **Skills** by running all `npx skills add` commands from `SKILL_LIST.md`
+5. Install **Skills** by running all `npx skills add` commands from `skills/SKILL_LIST.md`

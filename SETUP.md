@@ -2,7 +2,10 @@
 
 Instructions for AI agents to set up a new system with all agent configurations.
 
-> **Important:** Before performing any step, check if it is already done. If the destination files/folders already exist and match the source, only verify and report to the user — do not overwrite or re-run. Only perform the step if it is missing or outdated.
+> **Important:** Before each step, check if the destination already exists.
+> - **Matches source** — skip it, report as done.
+> - **Exists but differs** — try to merge changes automatically. If conflicts can't be resolved, show the diff and ask the user.
+> - **Missing** — perform the step.
 
 ---
 

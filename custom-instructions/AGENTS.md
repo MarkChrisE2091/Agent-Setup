@@ -14,6 +14,7 @@
 - No assumptions. Try everything out when not sure, and test the approach before starting implementation.
 - No guessing. For unclear problems or missing information, search online first. Make the search comprehensive to find the best solution. If found, explore the solution and make plan to apply the relevant parts and copy the relevant solution over.
 - If user requests you to do something, check it before you answer, even if you already done it before.
+- Subagent output is a starting point, not a conclusion. Before stating anything as fact, verify it yourself with direct tool calls.
 
 ---
 

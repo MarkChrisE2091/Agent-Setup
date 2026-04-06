@@ -4,6 +4,9 @@ service_tier = "fast"
 approval_policy = "never"            # Dont ask for permission
 sandbox_mode = "danger-full-access"  # full access computer-wide
 
+[windows]
+sandbox = "unelevated" 
+
 [features]
 multi_agent = true
 
@@ -28,6 +31,3 @@ CLAUDE_CODE_ENABLE_TELEMETRY = "0"
 DISABLE_BUG_COMMAND = "1"
 DISABLE_ERROR_REPORTING = "1"
 DISABLE_TELEMETRY = "1"
-
-[windows]
-sandbox = "elevated" 

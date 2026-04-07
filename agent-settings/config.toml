@@ -1,15 +1,19 @@
 model = "gpt-5.4"
 model_reasoning_effort = "xhigh"
 service_tier = "fast"
-approval_policy = "never"            # Dont ask for permission
-sandbox_mode = "danger-full-access"  # full access computer-wide
+approval_policy = "never"               # Dont ask for permission
+sandbox_mode    = "danger-full-access"  # full access computer-wide
 
 [windows]
 sandbox = "unelevated" 
 
+[shell_environment_policy]
+inherit = "all"
+
 [features]
 multi_agent = true
 
+# ── MCP ───────────────────────────────────────────────────────────────────────
 [mcp_servers.openaiDeveloperDocs]
 url = "https://developers.openai.com/mcp"
 
@@ -21,13 +25,15 @@ args = ["@playwright/mcp@latest"]
 url = "https://api.githubcopilot.com/mcp/"
 bearer_token_env_var = "GITHUB_PAT_TOKEN"
 
-[shell_environment_policy]
-inherit = "core"
+# ── Disable Data Collection ───────────────────────────────────────────────────
+[analytics]
+enabled = false
 
-[shell_environment_policy.set]
-CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY = "1"
-CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC = "1"
-CLAUDE_CODE_ENABLE_TELEMETRY = "0"
-DISABLE_BUG_COMMAND = "1"
-DISABLE_ERROR_REPORTING = "1"
-DISABLE_TELEMETRY = "1"
+[feedback]
+enabled = false
+
+[otel]                       # OpenTelemetry
+exporter         = "none"    # disable log export
+metrics_exporter = "none"    # disable metrics (sends data by default!)
+trace_exporter   = "none"    # disable trace export
+log_user_prompt  = false     # never include prompt text in logs

@@ -23,7 +23,10 @@ npx skills add https://github.com/anthropics/skills --skill webapp-testing
 npx skills add https://github.com/obra/superpowers --skill requesting-code-review
 npx skills add https://github.com/obra/superpowers --skill receiving-code-review
 
-# 7. Commits
+# 7. Refactoring
+npx skills add https://github.com/github/awesome-copilot --skill refactor
+
+# 8. Commits
 npx skills add https://github.com/github/awesome-copilot --skill git-commit
 ```
 

@@ -1,6 +1,6 @@
 ---
 name: e2e-testing
-description: Apply best practices when writing, reviewing, or planning end-to-end (E2E) tests. Use when the user asks to write E2E tests, set up a test suite, fix flaky tests, or plan a testing strategy for any kind of project — web apps, backend APIs, CLI tools, mobile apps, or desktop applications. Note: This skill is mostly for web apps, backend APIs, CLI tools. Mobile and desktop projects can use the core principles but may need platform-specific guidance beyond this skill.
+description: "Apply best practices when writing, reviewing, or planning end-to-end (E2E) tests. Use when the user asks to write E2E tests, set up a test suite, fix flaky tests, or plan a testing strategy for any kind of project - web apps, backend APIs, CLI tools, mobile apps, or desktop applications. Note: This skill is mostly for web apps, backend APIs, CLI tools. Mobile and desktop projects can use the core principles but may need platform-specific guidance beyond this skill."
 ---
 
 # E2E Testing Skill

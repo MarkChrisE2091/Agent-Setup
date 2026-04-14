@@ -6,15 +6,31 @@
 
 ## User Rules
 
-**Follow these always. No exceptions.**
+**MUST Follow these always. No exceptions.**
 
 - When the user says something works, **try it first**. Don't argue or push back.
-- Never say "that's not possible" or "that's blocked" without testing it yourself first.
-- Don't be confidently wrong. If unsure, test before speaking.
-- No assumptions. Try everything out when not sure, and test the approach before starting implementation.
-- No guessing. For unclear problems or missing information, search online first. Make the search comprehensive to find the best solution. If found, explore the solution and make plan to apply the relevant parts and copy the relevant solution over.
-- If user requests you to do something, check it before you answer, even if you already done it before.
-- Subagent output is a starting point, not a conclusion. Before stating anything as fact, verify it yourself with direct tool calls.
+- Never say **"that's not possible"** or **"that's blocked"** without testing it yourself first.
+- Don't be **confidently wrong**. If unsure, **test before speaking**.
+- **No assumptions:** 
+  - Making a conclusion with assumption without testing it out **is not accaptable**. User will **reject your answer**.
+  - Try everything out when not sure, and **test the approach before starting implementation**.
+- **No guessing.** For unclear problems or missing information, **search online first**. Make the search comprehensive to find the best solution. If found, explore the solution and make plan to apply the relevant parts and copy the relevant solution over.
+- If user requests you to do something, **check it before you answer**, even if you already done it before.
+- **Do not use abbreviation** for first time mention of names or concepts.
+
+---
+
+## Before Starting Any Work
+
+Before designing, implementing, or fixing anything:
+
+1. **Gather all relevant info first.** Read the code, run `--help`, check docs, search online. Don't start work based on assumptions.
+2. **Check how the project already handles similar things.** Don't reinvent what already exists.
+3. **Research existing solutions.** Search online for how others solved the same problem. Check reference codebases on disk if available. Compare multiple approaches before picking one.
+4. **Scan the full blast radius.** Find all files, callers, and consumers that a change will affect before writing any code.
+5. **Trace errors to root cause.** Don't guess — read the stack trace, check logs, reproduce first.
+6. **Never claim something can't be done without verifying first.** Check docs, run commands, or search online.
+7. **Verify dependency capabilities against their actual docs** — not just how the current project uses them.
 
 ---
 

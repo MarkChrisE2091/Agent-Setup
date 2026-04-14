@@ -1,6 +1,8 @@
 model = "gpt-5.4"
 model_reasoning_effort = "xhigh"
 service_tier = "fast"
+model_context_window = 1050000
+model_auto_compact_token_limit = 1000000
 approval_policy = "never"               # Dont ask for permission
 sandbox_mode    = "danger-full-access"  # full access computer-wide
 

@@ -71,15 +71,15 @@ After completing all steps, print a summary table listing every item and what ac
 
 | Item | Action | Details |
 |---|---|---|
-| `~/.claude/AGENTS.md` | Copied / Skipped / Merged | — |
+| `~/.claude/AGENTS.md` | Copied / Skipped / Updated | — |
 | `~/.claude/CLAUDE.md` | Symlinked / Skipped | — |
 | `~/.codex/AGENTS.md` | Symlinked / Skipped | — |
-| `~/.claude/settings.json` | Copied / Skipped / Merged | — |
-| `~/.codex/config.toml` | Copied / Skipped / Merged | — |
+| `~/.claude/settings.json` | Copied / Skipped / Updated | — |
+| `~/.codex/config.toml` | Copied / Skipped / Updated | — |
 | Each slash command file | Copied / Skipped | — |
 | Each custom skill folder | Copied / Skipped | — |
 | Each `npx skills add` command | Installed / Skipped | — |
 
 For each row:
-- **Action** — what the agent did: `Copied`, `Symlinked`, `Installed`, `Merged`, or `Skipped (already up to date)`.
-- **Details** — if merged or skipped, briefly explain what differed or why it was skipped. Leave blank if straightforward.
+- **Action** — what the agent did: `Copied`, `Symlinked`, `Installed`, `Updated`, or `Skipped (already up to date)`.
+- **Details** — if updated or skipped, briefly explain what differed or why it was skipped. Leave blank if straightforward.

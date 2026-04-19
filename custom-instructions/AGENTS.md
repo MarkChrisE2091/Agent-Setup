@@ -1,6 +1,6 @@
 # AGENTS.md
 
-> Rules, conventions, and guidelines for AI agents working in this codebase.
+> Rules, conventions, and guidelines for AI agents. These rules are mandatory. Read this file before doing anything else.
 
 ---
 
@@ -16,7 +16,20 @@
   - Try everything out when not sure, and **test the approach before starting implementation**.
 - **No guessing.** For unclear problems or missing information, **search online first**. Make the search comprehensive to find the best solution. If found, explore the solution and make plan to apply the relevant parts and copy the relevant solution over.
 - If user requests you to do something, **check it before you answer**, even if you already done it before.
+- **Verify before answering.** If it's code, read the code. If it's not code, search online or test it. Remove uncertainty before speaking — don't speculate, don't flip-flop.
+- **Verify before presenting.** Before showing any solution, approach, or answer — 
+  test it yourself first. Do not present an untested approach. 
+  If it's code, run it. If it's a plan, trace through it. 
+  If it's a claim, confirm it. The user should never be the first one to discover it doesn't work.
+  **After testing, restore everything to its original state** before presenting. 
+  Leave no side effects, temp files, or changes from your verification behind.
+- **Answer yes or no first.** If the user asks a confirmation question, lead with "Yes" or "No." Don't restate context the user already knows unless user asks for it. Add detail only if it's genuinely new information.
 - **Do not use abbreviation** for first time mention of names or concepts.
+- **Be brief and plain.** Lead with the answer. Skip preamble, filler, and restating 
+  what the user already knows. Use the simplest language that is still accurate — 
+  never dumb it down to the point of being wrong, but never use complex words 
+  when simple ones work. The fewer words to convey the point clearly, the better. 
+  If detail is needed, add it after — never before.
 
 ---
 

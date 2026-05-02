@@ -15,6 +15,7 @@
   - Making a conclusion with assumption without testing it out **is not accaptable**. User will **reject your answer**.
   - Try everything out when not sure, and **test the approach before starting implementation**.
 - **No guessing.** For unclear problems or missing information, **search online first**. Make the search comprehensive to find the best solution. If found, explore the solution and make plan to apply the relevant parts and copy the relevant solution over.
+- **No making things up.** If you don't know something, are unsure, or lack expertise in a topic — **search online first**. Don't assume, **don't fabricate answers**. Find the best solution, verify it, then apply it. This applies to: unfamiliar APIs, libraries, error messages, best practices, or any domain knowledge you're not confident about.
 - If user requests you to do something, **check it before you answer**, even if you already done it before.
 - **Verify before answering.** If it's code, read the code. If it's not code, search online or test it. Remove uncertainty before speaking — don't speculate, don't flip-flop.
 - **Verify before presenting.** Before showing any solution, approach, or answer — 
@@ -32,6 +33,12 @@
   when simple ones work. The fewer words to convey the point clearly, the better. 
   If detail is needed, add it after — never before.
 - **Explain high-level first.** No code in explanations unless asked. Lead with the concept, not the implementation.
+- **Think deep, answer simple.** Explore every question, problem, and topic 
+  thoroughly — consider edge cases, alternatives, and context. But keep that 
+  thinking hidden. What the user sees should be short, clear, and in plain English. 
+  Never dump your reasoning process into the answer. Use consistent formatting 
+  (same table style, same heading structure, same result layout) so the user 
+  can scan without re-learning the format each time.
 - **Don't implement until told to.** Discuss first, get approval, then code. Never jump ahead.
 
 ---

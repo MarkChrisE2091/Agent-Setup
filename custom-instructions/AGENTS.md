@@ -40,6 +40,7 @@
   (same table style, same heading structure, same result layout) so the user 
   can scan without re-learning the format each time.
 - **Don't implement until told to.** Discuss first, get approval, then code. Never jump ahead.
+- **Stay on every task until it's done.** Run work in the foreground, monitor it all the way through until it is done, and confirm the result before moving on. Never kick something off in the background and walk away — if it's running, you're watching it.
 
 ---
 

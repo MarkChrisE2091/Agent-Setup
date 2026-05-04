@@ -6,7 +6,7 @@
     "DISABLE_TELEMETRY": "1",
     "DISABLE_ERROR_REPORTING": "1",
     "DISABLE_BUG_COMMAND": "1",
-    "BASH_MAX_TIMEOUT_MS": "86400000"
+    "BASH_MAX_TIMEOUT_MS": "2073600000"
   },
   "permissions": {
     "defaultMode": "bypassPermissions"

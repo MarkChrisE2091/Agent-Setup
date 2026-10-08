@@ -9,10 +9,10 @@
     "BASH_MAX_TIMEOUT_MS": "2073600000"
   },
   "permissions": {
-    "defaultMode": "bypassPermissions"
+    "defaultMode": "auto"
   },
   "skipDangerousModePermissionPrompt": true,
-  "model": "claude-opus-5",
+  "model": "claude-opus-5-5",
   "enabledPlugins": {
     "frontend-design@claude-plugins-official": true,
     "context7@claude-plugins-official": true,

@@ -19,7 +19,7 @@ Set up my dev environment using https://github.com/MarkChrisE2091/Agent-Setup
 - **Settings** — Runtime config for Claude Code and Codex
 - **Custom instructions** — Global behavioral rules for AI agents
 - **Slash commands** — `/explore`, `/implement`, `/scan`, `/test`
-- **Skills** — 13 skills for planning, design, testing, code review, and more
+- **Skills** — 16 skills for planning, design, testing, code review, and more
 
 ## Customization
 

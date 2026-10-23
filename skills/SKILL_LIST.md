@@ -7,6 +7,7 @@ npx skills add https://github.com/vercel-labs/skills --skill find-skills
 # 2. Brainstorm & Planning
 npx skills add https://github.com/obra/superpowers --skill brainstorming
 npx skills add https://github.com/obra/superpowers --skill writing-plans
+npx skills add https://github.com/mattpocock/skills --skill grilling
 
 # 3. Design
 npx skills add https://github.com/anthropics/skills --skill frontend-design

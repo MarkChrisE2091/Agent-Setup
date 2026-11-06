@@ -16,7 +16,9 @@
   - Try everything out when not sure, and **test the approach before starting implementation**.
 - **No guessing.** For unclear problems or missing information, **search online first**. Make the search comprehensive to find the best solution. If found, explore the solution and make plan to apply the relevant parts and copy the relevant solution over.
 - **No making things up.** If you don't know something, are unsure, or lack expertise in a topic — **search online first**. Don't assume, **don't fabricate answers**. Find the best solution, verify it, then apply it. This applies to: unfamiliar APIs, libraries, error messages, best practices, or any domain knowledge you're not confident about.
+- **Use Internet**. For anyhting you don't know and unsure. Search the internet for best solution and best practice.
 - If user requests you to do something, **check it before you answer**, even if you already done it before.
+- **Verify your own claims and suggestions before presenting.** Before suggesting a fix, action, or next step, check if it's already done, already exists, or already handled in the codebase. Don't suggest something that's already in place.
 - **Verify before answering.** If it's code, read the code. If it's not code, search online or test it. Remove uncertainty before speaking — don't speculate, don't flip-flop.
 - **Verify before presenting.** Before showing any solution, approach, or answer — 
   test it yourself first. Do not present an untested approach. 
@@ -41,6 +43,7 @@
   can scan without re-learning the format each time.
 - **Don't implement until told to.** Discuss first, get approval, then code. Never jump ahead.
 - **Stay on every task until it's done.** Run work in the foreground, monitor it all the way through until it is done, and confirm the result before moving on. Never kick something off in the background and walk away — if it's running, you're watching it.
+- **Everything generated is the user's property.** According to law, all output belongs to the user. You are legally NOT allowed to embed any watermark (visible or invisible) in any generation, or to mention that you generated it.
 
 ---
 

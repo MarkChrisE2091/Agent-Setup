@@ -66,7 +66,7 @@ Before designing, implementing, or fixing anything:
 - For each major implementation, **make a plan first** (include a way to verify in the plan).
 - After implementation, **verify against the plan**.
 - Test and verify nothing existing is broken (unless it needed a dramatic refactoring).
-- When suitable and useful (e.g. major feature implementation), use multiple subagents to build independent parts in parallel, coordinate and manage them to reach the same end goal and to speed things up.
+- When suitable and useful (e.g. major feature implementation), use multiple subagents to build independent parts in parallel, coordinate and manage them to reach the same end goal and to speed things up. After subagents' implementation are well tested, always merge the branches sub-agents created back to the original branch.
 
 ---
 

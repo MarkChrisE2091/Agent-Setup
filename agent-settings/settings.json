@@ -23,5 +23,5 @@
     "feature-dev@claude-plugins-official": true
   },
   "autoUpdatesChannel": "latest",
-  "effortLevel": "max"
+  "effortLevel": "high"
 }

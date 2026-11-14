@@ -16,7 +16,7 @@ Read `skills/SKILL_LIST.md` and run each `npx skills add` command listed there.
 Then copy all custom skill folders from `skills/` (everything except `SKILL_LIST.md`) to both destinations.
 
 **Destinations:**
-- `~/.agents`
+- `~/.agents/skills/`
 - `~/.claude/skills/`
 
 ---
